@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    background-image: url(uk.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#clock-container{
+justify-content: center;
+display: flex;
+align-items: center;
+height:100vh;
+}
+#clock{
+    font-family:monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    color: white;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    background-color: rgba(220, 220, 220, 0.217);
+    text-align: center;
+}
